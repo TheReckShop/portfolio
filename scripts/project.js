@@ -9,5 +9,6 @@ function Project(name, description, image, link, date) {
   this.link = link;
   this.date = date;
 
-Project.prototype.toHtml = function() {
-};
+  Project.prototype.toHtml = function() {
+  }
+}
