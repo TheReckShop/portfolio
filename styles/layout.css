@@ -1,0 +1,43 @@
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main-nav {
+  max-width: 80%;
+}
+
+#filters select {
+  width: 90%;
+  margin: .2em 5%;
+}
+
+/* REVIEW: Add styles so the filters lay out better on desktop. */
+@media only screen and (min-width: 640px) {
+  .site-header {
+    display: block;
+  }
+  .header-my-name {
+    padding: .1em .1em .1em 2em;
+    float: left;
+  }
+
+  #filters select {
+    width: 15em;
+    margin: .2em .2em;
+  }
+
+  #filters li {
+    width: 20em;
+    display: block;
+  }
+}
