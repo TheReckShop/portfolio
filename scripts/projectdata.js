@@ -16,10 +16,10 @@ var projectData = [
     date: ''
   },
   {
-  name: 'Project 3',
-  description: 'This project 3',
-  image: 'img3',
-  link: '',
-  date: '',
+    name: 'Project 3',
+    description: 'This project 3',
+    image: 'img3',
+    link: '',
+    date: '',
   }
 ]
