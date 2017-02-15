@@ -31,7 +31,7 @@
 .main-nav > ul {
   margin-right: 0px;
   margin-bottom: 20px;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-left: 0px;
   padding-right: : 0px;
   width: auto;
@@ -66,13 +66,13 @@ h1 {
   margin-right: 0px;
   background-color: lightgrey;
   margin-top: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .main-content {
   display: block;
   padding: 0px 0px 15px 0px;
-  margin: 10px 15px 15px 15px;
+  margin: 10px 15px 0px 15px;
 }
 
 #project-header {
