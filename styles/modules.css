@@ -1,21 +1,26 @@
 .icon-menu {
   font-size: 3em;
   float: right;
+  padding-top: .30em
 }
 
 .main-nav {
-  padding: 0.1em;
+  padding: 0em;
 }
 
 .main-nav ul {
   display: none;
-  padding: 0;
+  padding: 10px 10px 10px 10px;
   list-style: none;
   clear: both;
 }
 
 .main-nav:hover ul {
   display: block;
+}
+
+#individual-project.template {
+  display: none;
 }
 
 .main-nav li {
@@ -30,7 +35,7 @@
     }
     .main-nav ul {
         display: block;
-        width: 100%;
+        width: 90%;
         text-align: center;
     }
     .main-nav li {

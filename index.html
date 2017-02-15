@@ -4,11 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="vendor/styles/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Titillium+Web" rel="stylesheet">
     <link rel="stylesheet" href="styles/modules.css">
     <link rel="stylesheet" href="styles/icons.css">
     <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/fonts/icomoon.svg">
     <!-- <link rel="stylesheet" href="fonts/SVG.css"> -->
     <title>David Cole's Personal Project Page</title>
@@ -35,20 +36,16 @@
         <header >
           <h1 id="project-header">Projects</h1>
         </header>
-        <div class="project-display">
-          <div class="individual-project">
-
+        <section id="project-display">
+          <div id="individual-project" class="template">
+            <header>
+              <h1 class="name">Name</h1>
+            </header>
+            <div class="image">
+                <img src="" alt="project 1">
+            </div>
           </div>
-          <div class="individual-project">
-
-          </div>
-          <div class="individual-project">
-
-          </div>
-          <div class="individual-project">
-
-          </div>
-        </div>
+        </section>
       <div class="skills">
         <header>
           <h1>Skills</h1>
@@ -76,5 +73,9 @@
 
     </footer>
   </body>
-  <script type="text/javascript" src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="scripts/projectdata.js"></script>
+  <script type="text/javascript" src="scripts/project.js"></script>
 </html>
