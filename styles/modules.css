@@ -19,6 +19,10 @@
   display: block;
 }
 
+#individual-project.template {
+  display: none;
+}
+
 .main-nav li {
   margin-right: .4em;
   font-size: 1.5em;

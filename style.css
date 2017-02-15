@@ -79,7 +79,7 @@ h1 {
   /*border: grey solid 2px;*/
   margin-top: 0px;
 }
-.project-display {
+#project-display {
   border: black solid 2px;
   height: 395px;
   width: auto%;
@@ -87,9 +87,9 @@ h1 {
   margin-right: 15px;
 }
 
-.individual-project {
+#individual-project {
   display: inline-block;
-  border: black dotted 2px;
+  border: red dotted 2px;
   height: 310px;
   margin: 20px 20px 20px 20px;
   width: 225px;
