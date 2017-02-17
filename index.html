@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="vendor/styles/normalize.css">
+    <!-- <link rel="stylesheet" href="vendor/styles/normalize.css"> -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Titillium+Web" rel="stylesheet">
     <link rel="stylesheet" href="styles/modules.css">
     <link rel="stylesheet" href="styles/icons.css">
@@ -23,9 +23,9 @@
 
           </div>
           <ul>
-            <li><a href="#"></a>Projects</li>
+            <li><a href="#" id="projects">Projects</a></li>
             <li><a href="https://github.com/TheReckShop">Github</a></li>
-            <li>About</li>
+            <li><a href='#' id="about">About</a></li>
           </ul>
         </nav>
       </div>
@@ -42,32 +42,38 @@
               <h1 class="name">Name</h1>
             </header>
             <div class="image">
-                <img src="" alt="project 1">
+                <img src="">
             </div>
           </div>
         </section>
-      <div class="skills">
-        <header>
-          <h1>Skills</h1>
-        </header>
-        <div>
-          <p>
-            <ul id="skills-list">
-              <li>HTML</li>
-              <li>Javascript</li>
-              <li>CSS</li>
-              <li>jQuery</li>
-            </ul>
-          </p>
+      <section>
+        <div id="about-header">
+          <header>
+            <h1>About</h1>
+          </header>
         </div>
-          <div class="about">
-            <header>
-              <h1>About</h1>
-            </header>
-          </div>
+        <div class="skills">
+          <header>
+            <h1>Skills</h1>
+          </header>
+          <div>
             <p>
-            Ipsum
-       </div>
+              <ul id="skills-list">
+                <li>HTML</li>
+                <li>Javascript</li>
+                <li>CSS</li>
+                <li>jQuery</li>
+              </ul>
+            </p>
+          </div>
+              <p id="about-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+         </div>
+       </section>
     </main>
     <footer>
 
@@ -78,4 +84,7 @@
   crossorigin="anonymous"></script>
   <script type="text/javascript" src="scripts/projectdata.js"></script>
   <script type="text/javascript" src="scripts/project.js"></script>
+  <script type="text/javascript" src="scripts/pageView.js"></script>
+
+  </script>
 </html>

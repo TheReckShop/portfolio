@@ -105,21 +105,6 @@ h1.name {
   font-size: 110%;
 }
 
-body {
-  margin: 0px .5em 0px 0.5em;
-  line-height: 1.5;
-  font-size: 110%;
-  color: #313131;
-  width: 100%;
-
-
-}
-
-hr {
-  margin: 1em;
-  width: 80%;
-}
-
 /*FOOTER*/
 footer {
   height: 100px;
