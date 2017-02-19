@@ -1,5 +1,4 @@
 /*NAV BAR*/
-
 #header-my-name {
   float: left;
   padding: 0.5em 0.5em 0.5em 0.5em;
@@ -87,7 +86,6 @@ h1 {
   width: auto%;
   margin-left: 15px;
   margin-right: 15px;
-  display: none;
 }
 
 #about-display {
@@ -95,7 +93,6 @@ h1 {
   width: auto%;
   margin-left: 15px;
   margin-right: 15px;
-  display: none;
 }
 
 #individual-project {
