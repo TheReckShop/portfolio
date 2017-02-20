@@ -11,9 +11,6 @@ const PORT = process.env.PORT || 3000;
 app.use(express.static('./public'));
 
 // Routes
-app.get('/admin', function(request, response) {
-  response.sendFile('public/admin.html', {root: '.'});
-});
 
 app.get('/index', function(request, response) {
   response.sendFile('public/index.html', {root: '.'});
