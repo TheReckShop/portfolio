@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/TheReckShop/portfolio/issues"
   },
-  "homepage": "https://github.com/TheReckShop/portfolio#readme"
+  "homepage": "https://github.com/TheReckShop/portfolio#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
 }

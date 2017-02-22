@@ -8,12 +8,12 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Include the static resources as an argument for app.use()
-app.use(express.static('./public'));
+app.use(express.static('.'));
 
 // Routes
 
 app.get('/index', function(request, response) {
-  response.sendFile('public/index.html', {root: '.'});
+  response.sendFile('index.html', {root: '.'});
 });
 
 app.get('*', function(request, response) {
