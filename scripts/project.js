@@ -12,12 +12,9 @@ function Project(options) {
 }
 
 Project.prototype.toHtml = function() {
-  var $newProject = $('div.template').clone();
-  $newProject.removeClass('template');
-  $newProject.find('h1').html(this.name);
-  $newProject.find('img').html(this.image).attr('src', this.imageUrl);
-  console.log($newProject);
-  return $newProject;
+  var source = $('#project-display').html();
+  var templateRender = handlebars.compile(source);
+  return templateRender(this);
 };
 
 projectData.forEach(function(sectionObject) {
