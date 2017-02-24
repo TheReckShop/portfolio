@@ -6,8 +6,11 @@ img {
 
 body {
   line-height: 1.5;
-  font-size: 100%;
+  /*font-size: 100%;*/
   color: #313131;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  font-size: 110%;
   width: 100%;
 }
 
@@ -35,7 +38,7 @@ a, a:link, a:active {
 }
 
 a:hover, a:focus {
-  color: #29506D;
+  color: white;
 }
 
 a:visited {

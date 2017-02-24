@@ -5,7 +5,7 @@
 }
 
 .main-nav {
-  padding: 0em;
+  padding: 0px 0px 0px 0px;
 }
 
 .main-nav ul {
@@ -35,7 +35,6 @@
     }
     .main-nav ul {
         display: block;
-        width: 90%;
         text-align: center;
     }
     .main-nav li {
