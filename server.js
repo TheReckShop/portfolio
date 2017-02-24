@@ -25,3 +25,8 @@ app.get('*', function(request, response) {
 app.listen(PORT, function() {
   console.log('app is running on localhost:3000');
 });
+
+// THIS IS NOT RIGHT FIRST DO
+// 1. npm init
+// 2. npm i
+// 3. Then make sure you have all the stuff you learning
