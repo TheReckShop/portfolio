@@ -12,8 +12,8 @@ function Project(options) {
 }
 
 Project.prototype.toHtml = function() {
-  var source = $('#project-display').html();
-  var templateRender = handlebars.compile(source);
+  var source = $('#project-template').html();
+  var templateRender = Handlebars.compile(source);
   return templateRender(this);
 };
 
